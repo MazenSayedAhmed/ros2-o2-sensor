@@ -32,6 +32,4 @@ ros2_ws/
 
 ### 1. Create ROS2 workspace (if not already):
 
-```bash
-mkdir -p ~/ros2_ws/src
-cd ~/ros2_ws
+
