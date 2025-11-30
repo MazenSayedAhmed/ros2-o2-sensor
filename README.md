@@ -28,8 +28,6 @@ ros2_ws/
 - **Behavior:**  
   - Publishes random O₂ concentration values around 21% to simulate real sensor fluctuations.  
   - Prints a warning if O₂ is below 19% or above 23%.
-## 🛠 Installation & Local Run
 
-### 1. Create ROS2 workspace (if not already):
 
 
