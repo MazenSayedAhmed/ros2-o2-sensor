@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32
@@ -15,10 +13,14 @@ class O2SensorNode(Node):
 
     def publish_o2_data(self):
         msg = Float32()
-        base_o2 = 21.0
-        msg.data = base_o2 + random.uniform(-0.5, 0.5)  # simulate fluctuation
+        msg.data = random.uniform(18.0, 23.0)
         self.publisher_.publish(msg)
         self.get_logger().info(f'Publishing O2 level: {msg.data:.2f}%')
+
+# 🆕 Add this warning section
+        if msg.data < 19.0 or msg.data > 23.0:
+            self.get_logger().warn(f'⚠️ Abnormal O2 level detected: {msg.data:.2f}%')
+
 
 def main(args=None):
     rclpy.init(args=args)

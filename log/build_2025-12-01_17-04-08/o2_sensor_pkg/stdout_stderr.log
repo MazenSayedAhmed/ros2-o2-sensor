@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing o2_sensor_pkg.egg-info/PKG-INFO
+writing dependency_links to o2_sensor_pkg.egg-info/dependency_links.txt
+writing entry points to o2_sensor_pkg.egg-info/entry_points.txt
+writing requirements to o2_sensor_pkg.egg-info/requires.txt
+writing top-level names to o2_sensor_pkg.egg-info/top_level.txt
+reading manifest file 'o2_sensor_pkg.egg-info/SOURCES.txt'
+writing manifest file 'o2_sensor_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages/o2-sensor-pkg.egg-link (link to .)
+Installing o2_sensor_node script to /home/mz/ros2_ws/install/o2_sensor_pkg/lib/o2_sensor_pkg
+Installing o2_subscriber_node script to /home/mz/ros2_ws/install/o2_sensor_pkg/lib/o2_sensor_pkg
+
+Installed /home/mz/ros2_ws/build/o2_sensor_pkg

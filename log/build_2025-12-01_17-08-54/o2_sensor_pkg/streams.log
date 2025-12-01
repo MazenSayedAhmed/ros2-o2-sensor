@@ -1,0 +1,17 @@
+[0.733s] Invoking command in '/home/mz/ros2_ws/build/o2_sensor_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mz/ros2_ws/build/o2_sensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mz/ros2_ws/build/o2_sensor_pkg/build --no-deps
+[0.999s] running develop
+[1.177s] running egg_info
+[1.196s] writing o2_sensor_pkg.egg-info/PKG-INFO
+[1.196s] writing dependency_links to o2_sensor_pkg.egg-info/dependency_links.txt
+[1.196s] writing entry points to o2_sensor_pkg.egg-info/entry_points.txt
+[1.197s] writing requirements to o2_sensor_pkg.egg-info/requires.txt
+[1.197s] writing top-level names to o2_sensor_pkg.egg-info/top_level.txt
+[1.235s] reading manifest file 'o2_sensor_pkg.egg-info/SOURCES.txt'
+[1.236s] writing manifest file 'o2_sensor_pkg.egg-info/SOURCES.txt'
+[1.256s] running build_ext
+[1.256s] Creating /home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages/o2-sensor-pkg.egg-link (link to .)
+[1.256s] Installing o2_sensor_node script to /home/mz/ros2_ws/install/o2_sensor_pkg/lib/o2_sensor_pkg
+[1.256s] Installing o2_subscriber_node script to /home/mz/ros2_ws/install/o2_sensor_pkg/lib/o2_sensor_pkg
+[1.257s] 
+[1.257s] Installed /home/mz/ros2_ws/build/o2_sensor_pkg
+[1.289s] Invoked command in '/home/mz/ros2_ws/build/o2_sensor_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mz/ros2_ws/build/o2_sensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mz/ros2_ws/build/o2_sensor_pkg/build --no-deps

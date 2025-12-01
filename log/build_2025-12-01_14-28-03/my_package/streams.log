@@ -1,0 +1,53 @@
+[0.014s] Invoking command in '/home/mz/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/ros2_ws/install/o2_sensor_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mz/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/mz/ros2_ws/install/my_package
+[0.136s] -- The C compiler identification is GNU 13.3.0
+[0.236s] -- The CXX compiler identification is GNU 13.3.0
+[0.256s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.349s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.350s] -- Detecting C compile features
+[0.350s] -- Detecting C compile features - done
+[0.359s] -- Detecting CXX compiler ABI info
+[0.449s] -- Detecting CXX compiler ABI info - done
+[0.464s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.465s] -- Detecting CXX compile features
+[0.466s] -- Detecting CXX compile features - done
+[0.474s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.630s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.760s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.813s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.829s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.852s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.873s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.969s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.972s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.061s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.085s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.109s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.205s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.224s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.353s] -- Added test 'lint_cmake' to check CMake code style
+[1.354s] -- Added test 'xmllint' to check XML markup files
+[1.356s] -- Configuring done (1.3s)
+[1.360s] -- Generating done (0.0s)
+[1.361s] -- Build files have been written to: /home/mz/ros2_ws/build/my_package
+[1.370s] Invoked command in '/home/mz/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/ros2_ws/install/o2_sensor_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mz/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/mz/ros2_ws/install/my_package
+[1.371s] Invoking command in '/home/mz/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/ros2_ws/install/o2_sensor_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mz/ros2_ws/build/my_package -- -j8 -l8
+[1.404s] Invoked command in '/home/mz/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/ros2_ws/install/o2_sensor_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mz/ros2_ws/build/my_package -- -j8 -l8
+[1.416s] Invoking command in '/home/mz/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/ros2_ws/install/o2_sensor_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mz/ros2_ws/build/my_package
+[1.423s] -- Install configuration: ""
+[1.423s] -- Installing: /home/mz/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.423s] -- Installing: /home/mz/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.423s] -- Installing: /home/mz/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.423s] -- Installing: /home/mz/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.423s] -- Installing: /home/mz/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[1.423s] -- Installing: /home/mz/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[1.423s] -- Installing: /home/mz/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[1.424s] -- Installing: /home/mz/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[1.424s] -- Installing: /home/mz/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[1.424s] -- Installing: /home/mz/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[1.424s] -- Installing: /home/mz/ros2_ws/install/my_package/share/my_package/package.dsv
+[1.424s] -- Installing: /home/mz/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.424s] -- Installing: /home/mz/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.424s] -- Installing: /home/mz/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.424s] -- Installing: /home/mz/ros2_ws/install/my_package/share/my_package/package.xml
+[1.426s] Invoked command in '/home/mz/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/ros2_ws/install/o2_sensor_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mz/ros2_ws/build/my_package

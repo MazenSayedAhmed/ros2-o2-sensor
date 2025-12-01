@@ -1,0 +1,31 @@
+[0.956s] Invoking command in '/home/mz/ros2_ws/src/o2_sensor_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mz/ros2_ws/build/o2_sensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/o2_sensor_pkg build --build-base /home/mz/ros2_ws/build/o2_sensor_pkg/build install --record /home/mz/ros2_ws/build/o2_sensor_pkg/install.log --single-version-externally-managed
+[1.218s] running egg_info
+[1.218s] creating ../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info
+[1.236s] writing ../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/PKG-INFO
+[1.236s] writing dependency_links to ../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/dependency_links.txt
+[1.236s] writing entry points to ../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/entry_points.txt
+[1.236s] writing requirements to ../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/requires.txt
+[1.236s] writing top-level names to ../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/top_level.txt
+[1.237s] writing manifest file '../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/SOURCES.txt'
+[1.273s] reading manifest file '../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/SOURCES.txt'
+[1.274s] writing manifest file '../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/SOURCES.txt'
+[1.274s] running build
+[1.274s] running build_py
+[1.274s] creating /home/mz/ros2_ws/build/o2_sensor_pkg/build
+[1.274s] creating /home/mz/ros2_ws/build/o2_sensor_pkg/build/lib
+[1.275s] creating /home/mz/ros2_ws/build/o2_sensor_pkg/build/lib/o2_sensor_pkg
+[1.275s] copying o2_sensor_pkg/o2_sensor_node.py -> /home/mz/ros2_ws/build/o2_sensor_pkg/build/lib/o2_sensor_pkg
+[1.275s] copying o2_sensor_pkg/__init__.py -> /home/mz/ros2_ws/build/o2_sensor_pkg/build/lib/o2_sensor_pkg
+[1.275s] running install
+[1.282s] running install_lib
+[1.303s] creating /home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages/o2_sensor_pkg
+[1.303s] copying /home/mz/ros2_ws/build/o2_sensor_pkg/build/lib/o2_sensor_pkg/o2_sensor_node.py -> /home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages/o2_sensor_pkg
+[1.303s] copying /home/mz/ros2_ws/build/o2_sensor_pkg/build/lib/o2_sensor_pkg/__init__.py -> /home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages/o2_sensor_pkg
+[1.304s] byte-compiling /home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages/o2_sensor_pkg/o2_sensor_node.py to o2_sensor_node.cpython-312.pyc
+[1.304s] byte-compiling /home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages/o2_sensor_pkg/__init__.py to __init__.cpython-312.pyc
+[1.305s] running install_egg_info
+[1.328s] Copying ../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info to /home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages/o2_sensor_pkg-0.0.0-py3.12.egg-info
+[1.329s] running install_scripts
+[1.450s] Installing o2_sensor_node script to /home/mz/ros2_ws/install/o2_sensor_pkg/lib/o2_sensor_pkg
+[1.450s] writing list of installed files to '/home/mz/ros2_ws/build/o2_sensor_pkg/install.log'
+[1.481s] Invoked command in '/home/mz/ros2_ws/src/o2_sensor_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mz/ros2_ws/build/o2_sensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/o2_sensor_pkg build --build-base /home/mz/ros2_ws/build/o2_sensor_pkg/build install --record /home/mz/ros2_ws/build/o2_sensor_pkg/install.log --single-version-externally-managed

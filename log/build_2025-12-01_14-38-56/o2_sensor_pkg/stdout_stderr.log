@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/requires.txt
+writing top-level names to ../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/top_level.txt
+reading manifest file '../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying o2_sensor_pkg/o2_sensor_node.py -> /home/mz/ros2_ws/build/o2_sensor_pkg/build/lib/o2_sensor_pkg
+running install
+running install_lib
+copying /home/mz/ros2_ws/build/o2_sensor_pkg/build/lib/o2_sensor_pkg/o2_sensor_node.py -> /home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages/o2_sensor_pkg
+byte-compiling /home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages/o2_sensor_pkg/o2_sensor_node.py to o2_sensor_node.cpython-312.pyc
+running install_egg_info
+removing '/home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages/o2_sensor_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/o2_sensor_pkg/o2_sensor_pkg.egg-info to /home/mz/ros2_ws/install/o2_sensor_pkg/lib/python3.12/site-packages/o2_sensor_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing o2_sensor_node script to /home/mz/ros2_ws/install/o2_sensor_pkg/lib/o2_sensor_pkg
+Installing o2_subscriber_node script to /home/mz/ros2_ws/install/o2_sensor_pkg/lib/o2_sensor_pkg
+writing list of installed files to '/home/mz/ros2_ws/build/o2_sensor_pkg/install.log'

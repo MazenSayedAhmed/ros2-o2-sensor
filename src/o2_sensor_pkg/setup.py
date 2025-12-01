@@ -16,6 +16,7 @@ setup(
     entry_points={
         'console_scripts': [
             'o2_sensor_node = o2_sensor_pkg.o2_sensor_node:main',
+            'o2_subscriber_node = o2_sensor_pkg.o2_subscriber_node:main',
         ],
     },
 )
