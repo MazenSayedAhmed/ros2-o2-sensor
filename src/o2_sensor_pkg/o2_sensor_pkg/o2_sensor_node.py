@@ -19,7 +19,7 @@ class O2SensorNode(Node):
 
 # 🆕 Add this warning section
         if msg.data < 19.0 or msg.data > 23.0:
-            self.get_logger().warn(f'⚠️ Abnormal O2 level detected: {msg.data:.2f}%')
+            self.get_logger().warn(f'⚠️  Abnormal O2 level detected: {msg.data:.2f}%')
 
 
 def main(args=None):
